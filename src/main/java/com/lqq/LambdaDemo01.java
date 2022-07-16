@@ -69,7 +69,7 @@ public class LambdaDemo01 {
         foreachArr((int value)->{
               System.out.println(value);
             });
-
+        System.out.println("我是test2");
     }
 
     public static void foreachArr(IntConsumer consumer){
