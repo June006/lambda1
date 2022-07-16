@@ -70,6 +70,7 @@ public class LambdaDemo01 {
               System.out.println(value);
             });
         System.out.println("我是test2");
+        System.out.println("我是hot-fix");
     }
 
     public static void foreachArr(IntConsumer consumer){
